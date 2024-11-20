@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"b180363179288af1","type":"file","file":"imagens/api.png","x":-207,"y":-207,"width":400,"height":239},
+		{"id":"ae0454c4783c4e8e","type":"file","file":"imagens/código api pt2.png","x":-207,"y":60,"width":400,"height":195},
+		{"id":"d33f087cadb7b3f8","type":"file","file":"imagens/front.png","x":540,"y":-401,"width":400,"height":217},
+		{"id":"57515e1bc45dd499","type":"file","file":"imagens/opcao2.png","x":540,"y":-87,"width":400,"height":350},
+		{"id":"1283422a74f5e1d0","type":"file","file":"imagens/opcao1.png","x":540,"y":380,"width":400,"height":396},
+		{"id":"c22e1cafc3677f62","type":"file","file":"imagens/opcao5.png","x":540,"y":900,"width":400,"height":139},
+		{"id":"ab402028bd381332","type":"file","file":"imagens/opcao3.png","x":540,"y":1180,"width":400,"height":170},
+		{"id":"0c516a64a2a777cb","type":"file","file":"imagens/telaprincipal.png","x":540,"y":1480,"width":400,"height":166},
+		{"id":"8e07ec0bc0ffe98e","type":"file","file":"imagens/campop de texto da ia.png","x":578,"y":1820,"width":325,"height":400},
+		{"id":"b2a5273bc3c58ed4","type":"file","file":"imagens/opcao4.png","x":541,"y":2380,"width":400,"height":125},
+		{"id":"ec3de312b1c6d266","type":"text","text":"Esse é o código da API \npor revisão e utilização do cliente Nightingale \ne por ajuda externa \nfoi possível determinar que o erro 429 dado [[Integração da IA do ChatGPT no Projeto]] foi devido a liberação de tolkien por meio de pagamento.","x":-580,"y":-140,"width":250,"height":140},
+		{"id":"8407fceeb9ca4a62","type":"text","text":"Este é o visual do APP.","x":1320,"y":1533,"width":250,"height":60},
+		{"id":"cc4565b204500849","type":"text","text":"Este é o campo da IA, ao clicar no botão(na qual ele chama a API) com uma mensagem escrita no campo de pergunta, o chatGPT responde no campo de resposta. ","x":1320,"y":1960,"width":250,"height":200},
+		{"id":"8c438fab4d879fc3","type":"text","text":"Esta parte se pode ver sobre o APP.","x":1320,"y":940,"width":250,"height":60},
+		{"id":"10f8aff5ce167334","type":"text","text":"Na opção formatar, tem a opção de quebrar a linha e transformar o TXT em RTF","x":1320,"y":1235,"width":250,"height":115},
+		{"id":"ec63aa9b004f38c1","type":"text","text":"Para a criação do APP foi utilizado o framework .Net para desktop.","x":1320,"y":-352,"width":250,"height":112},
+		{"id":"bc5a8d61d966b866","type":"text","text":"Em editar, é possivel, colar, copiar, excluir, recortar, pesquisar no Bing(foi utilizado o Bing por motivos dele ser o navegador padrão do Windows), mas o principal desta parte é o pesquisar direto no chatGPT no site deles.","x":1320,"y":-60,"width":250,"height":280},
+		{"id":"863a7077057eacaa","type":"text","text":"Em arquivos, pode criar um novo projeto, uma nova janela, abrir outro projeto, salvar, salvar como (tanto em TXT quanto em RTF), também pode imprimir e configurar a página para a impressão, e por fim sair da aplicação desktop.","x":1320,"y":427,"width":250,"height":302},
+		{"id":"c2d87c431f84bb54","type":"text","text":"Nesta parte se pode ver o zoom, e status do documento.","x":1320,"y":2400,"width":250,"height":115}
+	],
+	"edges":[
+		{"id":"e4c03cd390182a6c","fromNode":"ec3de312b1c6d266","fromSide":"bottom","toNode":"b180363179288af1","toSide":"left"},
+		{"id":"6b2c1b0ebea75360","fromNode":"ec3de312b1c6d266","fromSide":"bottom","toNode":"ae0454c4783c4e8e","toSide":"left"},
+		{"id":"7e1b5f2d19b1840a","fromNode":"ec3de312b1c6d266","fromSide":"bottom","toNode":"8e07ec0bc0ffe98e","toSide":"left"},
+		{"id":"caa849dc21f52ad3","fromNode":"ec63aa9b004f38c1","fromSide":"bottom","toNode":"d33f087cadb7b3f8","toSide":"right"},
+		{"id":"e1d56ace4866ad8c","fromNode":"bc5a8d61d966b866","fromSide":"bottom","toNode":"57515e1bc45dd499","toSide":"right"},
+		{"id":"1b95ac85f179211c","fromNode":"863a7077057eacaa","fromSide":"bottom","toNode":"1283422a74f5e1d0","toSide":"right"},
+		{"id":"6efc1f6d97399343","fromNode":"8c438fab4d879fc3","fromSide":"bottom","toNode":"c22e1cafc3677f62","toSide":"right"},
+		{"id":"0f272c583078a731","fromNode":"10f8aff5ce167334","fromSide":"bottom","toNode":"ab402028bd381332","toSide":"right"},
+		{"id":"0eb1461dd99674e9","fromNode":"8407fceeb9ca4a62","fromSide":"bottom","toNode":"0c516a64a2a777cb","toSide":"right"},
+		{"id":"d860a2f05fe6afe7","fromNode":"cc4565b204500849","fromSide":"bottom","toNode":"8e07ec0bc0ffe98e","toSide":"right"},
+		{"id":"f0b0f1b7fd0be5d0","fromNode":"c2d87c431f84bb54","fromSide":"bottom","toNode":"b2a5273bc3c58ed4","toSide":"right"}
+	]
+}
